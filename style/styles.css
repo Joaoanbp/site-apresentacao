@@ -46,3 +46,25 @@ nav ul li::after{
 nav ul li:hover::after{
     width: 100%;
 }
+
+.container_header{
+    padding: 10px;
+    padding-top: 20px;
+    height: 10vh;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+}
+
+.project .project2 {
+    display: inline-block;
+    list-style: none;
+    font-size: 1rem;
+    padding: 0 10px;
+    margin: 0px;
+    cursor: pointer;
+    position: relative;
+    justify-content: space-evenly;
+}
